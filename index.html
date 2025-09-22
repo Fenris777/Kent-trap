@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Сайт</title>
+    <style>
+        /* Основные стили */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            display: block;
+        }
+
+        nav a:hover {
+            background: #575757;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 1rem;
+        }
+
+        section {
+            margin: 2rem 0;
+        }
+
+        h1, h2 {
+            color: #4CAF50;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        /* Адаптивный дизайн */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать!</h1>
+        <p>Я студент колледжа КСиД, изучаю программирование</p>
+    </header>
+    <nav>
+        <a href="#about">О себе</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>О себе</h2>
+            <p>Привет! Меня зовут [Ваше Имя]. Я учусь в колледже КСиД на программиста. Мне нравится решать задачи и создавать интересные проекты.</p>
+            <p>Мои любимые языки программирования:</p>
+            <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML и CSS</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Проекты</h2>
+            <p>Вот несколько моих проектов, которые я разработал:</p>
+            <ul>
+                <li><a href="https://github.com/Fenris777/Kent-trap" target="_blank">Kent-trap</a> - интересный проект на GitHub</li>
+                <li>Проект 2: [Описание вашего проекта]</li>
+                <li>Проект 3: [Описание вашего проекта]</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Вы можете связаться со мной:</p>
+            <ul>
+                <li>Email: [Ваш Email]</li>
+                <li>GitHub: <a href="https://github.com/Fenris777" target="_blank">Fenris777</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>© 2025, Все права защищены</p>
+    </footer>
+</body>
+</html>
